@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="quickswap"
+version="1.0"
+displayName="Quick Armor Swap"
+authors="Shahzod"
+description='''
+Right-click armor or elytra in your hand to swap it with what you wear.
+'''
+
+[[dependencies.quickswap]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.quickswap]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
